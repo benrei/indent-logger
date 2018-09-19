@@ -1,6 +1,5 @@
 # indent-logger
 
-[![Build Status](https://travis-ci.org/benrei/indent-logger.svg?branch=master)](https://travis-ci.org/benrei/indent-logger)
 [![NPM version](https://img.shields.io/npm/v/indent-logger.svg)](https://www.npmjs.com/package/indent-logger)
 
 Console.log with indent option
