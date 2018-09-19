@@ -1,0 +1,24 @@
+{
+  "name": "indent-logger",
+  "version": "1.0.0",
+  "description": "Console.log with indent option",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benrei/indent-logger.git"
+  },
+  "keywords": [
+    "console",
+    "log",
+    "indent"
+  ],
+  "author": "Benjamin Reiersølmoen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benrei/indent-logger/issues"
+  },
+  "homepage": "https://github.com/benrei/indent-logger#readme"
+}
