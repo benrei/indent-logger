@@ -1,6 +1,6 @@
 {
   "name": "indent-logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Console.log with indent option",
   "main": "index.js",
   "scripts": {
