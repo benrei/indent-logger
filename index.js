@@ -1,29 +1,29 @@
-const indent = (indent, str)=>{
-  if(typeof str === 'object') str = '\n' + JSON.stringify(str, null, 2);
-  if(str){
-    const log = `${" ".repeat(indent)}${str}`;
+const indent = (indent, stringOrObject)=>{
+  if(typeof stringOrObject === 'object') stringOrObject = '\n' + JSON.stringify(stringOrObject, null, 2);
+  if(stringOrObject){
+    const log = `${" ".repeat(indent)}${stringOrObject}`;
     console.log(log);
   }
 };
 module.exports.indent = indent;
 
-const indentTimestamp = (indent, str)=>{
-  if(typeof str === 'object') str = '\n' + JSON.stringify(str, null, 2);
-  if(str){
+const indentTimestamp = (indent, stringOrObject)=>{
+  if(typeof stringOrObject === 'object') stringOrObject = '\n' + JSON.stringify(stringOrObject, null, 2);
+  if(stringOrObject){
     const now = new Date();
     const time = `${now.getFullYear()}-${now.getMonth()}-${now.getDate()} ${now.getHours()}:${now.getMinutes()}:${now.getSeconds()} -> `
-    const log = `${time}${" ".repeat(indent)}${str}`;
+    const log = `${time}${" ".repeat(indent)}${stringOrObject}`;
     console.log(log);
   }
 };
 module.exports.indentTimestamp = indentTimestamp;
 
-const timestamp = (str)=>{
-  if(typeof str === 'object') str = '\n' + JSON.stringify(str, null, 2);
-  if(str){
+const timestamp = (stringOrObject)=>{
+  if(typeof stringOrObject === 'object') stringOrObject = '\n' + JSON.stringify(stringOrObject, null, 2);
+  if(stringOrObject){
     const now = new Date();
     const time = `${now.getFullYear()}-${now.getMonth()}-${now.getDate()} ${now.getHours()}:${now.getMinutes()}:${now.getSeconds()} -> `
-    const log = `${time} ${str}`;
+    const log = `${time} ${stringOrObject}`;
     console.log(log);
   }
 };
